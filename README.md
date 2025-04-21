@@ -124,8 +124,6 @@ class AnimalShelter(object):
                 return 0
         else:
             raise Exception("No criteria provided to delete.")
-nimal_shelter_BrennanHaggett.py…]()
-
 
 
 ## ProjectTwoDashboard.ipynb
