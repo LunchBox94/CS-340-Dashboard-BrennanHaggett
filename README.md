@@ -49,6 +49,7 @@ The dashboard includes radio buttons to filter data by rescue type (Water Rescue
 
 I embedded the Grazioso Salvare logo, used dash_leaflet for mapping, and plotly.express for the pie chart. The application is fully functional and responsive to user input. After testing all components and collecting screenshots, I uploaded the dashboard code, CRUD module, and README to GitHub for open-source availability.
 
+One challenge was connecting to MongoDB using mongoimport, which initially failed due to incorrect credentials and connection strings. This was resolved by confirming the correct URI format with authSource = admin. Another issue occurred when attempting to drop the _id column, which was not always present in the DataFrame; adding a conditional check resolved this. Additional difficulties involved uploading files to the correct Apporto directory and ensuring paths were accurate. Debugging Dash callbacks for filtering and maps required careful inspection of inputs and outputs, which was resolved through testing and using print statements for verification.
 
 
 ## Screenshot
