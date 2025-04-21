@@ -39,6 +39,18 @@ This project is an interactive dashboard built with Python, Dash, and MongoDB. I
 -The app will launch at http://127.0.0.1:8050/.
 
 
+Project Summary –
+
+For this project, I developed a full-stack web application dashboard for Grazioso Salvare using MongoDB, Dash, and Python. The project began by importing and preparing the aac_shelter_outcomes.csv data into MongoDB. I used mongoimport to load the data into the aac.animals collection and verified successful upload through the shell.
+
+I then created a custom Python module, animal_shelter_BrennanHaggett.py, to implement the CRUD operations needed to interact with the database. Using this module, I read animal data into a Pandas DataFrame and built a dynamic dashboard using Dash within a Jupyter Notebook.
+
+The dashboard includes radio buttons to filter data by rescue type (Water Rescue, Mountain/Wilderness, Disaster Rescue, and Individual Tracking). The interface updates a live DataTable, a pie chart showing breed distribution, and an interactive map showing the animal’s shelter location.
+
+I embedded the Grazioso Salvare logo, used dash_leaflet for mapping, and plotly.express for the pie chart. The application is fully functional and responsive to user input. After testing all components and collecting screenshots, I uploaded the dashboard code, CRUD module, and README to GitHub for open-source availability.
+
+
+
 ## Screenshot
 
 ![Dashboard Screenshot]
