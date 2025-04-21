@@ -6,10 +6,10 @@ This project is an interactive dashboard built with Python, Dash, and MongoDB. I
 
 ## Features
 
-- 📍 Dynamic geolocation mapping of animal rescues
-- 📊 Interactive pie chart showing breed distribution
-- 🔎 Filtering by rescue type (Water, Mountain, Disaster, Tracking)
-- 🐾 MongoDB integration with CRUD functionality
+- Dynamic geolocation mapping of animal rescues
+- Interactive pie chart showing breed distribution
+- Filtering by rescue type (Water, Mountain, Disaster, Tracking)
+- MongoDB integration with CRUD functionality
 
 ## Technologies Used
 
