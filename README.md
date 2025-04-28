@@ -333,3 +333,22 @@ def update_map(viewData, index):
 # Launch the Dash server
 app.run_server(debug=True)
 
+
+
+# 8-2 Journal: Portfolio Item
+
+# How do you write programs that are maintainable, readable, and adaptable?
+
+I wrote programs that are maintainable, readable, and adaptable by using modular design, clear comments, and descriptive function names. In Project One, I built a CRUD Python module that handled all database operations separately from the dashboard code. This made it easy to connect the database to the dashboard widgets in Project Two without rewriting functions. The advantage of working this way was that if any part of the database interaction needed to change, I could update the CRUD module without touching the dashboard’s interface code. In the future, I could reuse this CRUD module in different projects by simply adjusting the database connection details, saving time and ensuring consistency.
+
+
+# How do you approach a problem as a computer scientist?
+
+I approach problems by breaking them down into smaller, manageable steps. For the Grazioso Salvare project, I first analyzed the database and dashboard requirements separately. I designed how the CRUD module would interact with the database and then built the dashboard on top of that solid foundation. This approach differed from previous courses where I might have jumped into coding without fully planning. In the future, I will continue focusing on strong upfront design, clear database schema planning, and modular coding to meet new client requests efficiently.
+
+
+
+# What do computer scientists do, and why does it matter?
+
+Computer scientists solve real-world problems by designing, building, and maintaining systems that make information easy to access and use. In this project, my work would help a company like Grazioso Salvare manage their animal tracking data more efficiently, saving time and reducing human errors. By building adaptable, user-friendly tools like dashboards connected to databases, computer scientists enable companies to make better decisions, operate more smoothly, and ultimately achieve their goals.
+
